@@ -2,6 +2,7 @@ import illustrationImg from "../../assets/images/illustration.svg";
 import logoImg from "../../assets/images/logo.svg";
 import googleIconImg from "../../assets/images/google-icon.svg";
 import "./style.scss";
+import { Button } from "../../components/Button";
 
 export function Home() {
   return (
@@ -24,7 +25,7 @@ export function Home() {
           <div id="separator">or enter a room</div>
           <form>
             <input type="text" placeholder="Enter room code" />
-            <button type="submit">Enter the room</button>
+            <Button type="submit">Enter room</Button>
           </form>
         </div>
       </main>
