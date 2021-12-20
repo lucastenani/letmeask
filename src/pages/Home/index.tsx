@@ -1,10 +1,11 @@
 import illustrationImg from "../../assets/images/illustration.svg";
 import logoImg from "../../assets/images/logo.svg";
 import googleIconImg from "../../assets/images/google-icon.svg";
+import "./style.scss";
 
 export function Home() {
   return (
-    <div>
+    <div id="page-auth">
       <aside>
         <img
           src={illustrationImg}
@@ -14,13 +15,13 @@ export function Home() {
         <p>Ask a real-time audience questions</p>
       </aside>
       <main>
-        <div>
+        <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
-          <button>
+          <button id="create-room">
             <img src={googleIconImg} alt="Google logo" />
             Create your room using Google
           </button>
-          <div>or enter a room</div>
+          <div id="separator">or enter a room</div>
           <form>
             <input type="text" placeholder="Enter room code" />
             <button type="submit">Enter the room</button>
