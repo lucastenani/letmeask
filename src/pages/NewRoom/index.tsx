@@ -1,0 +1,32 @@
+import illustrationImg from "../../assets/images/illustration.svg";
+import logoImg from "../../assets/images/logo.svg";
+import "../../styles/auth.scss";
+import { Button } from "../../components/Button";
+
+export function NewRoom() {
+  return (
+    <div id="page-auth">
+      <aside>
+        <img
+          src={illustrationImg}
+          alt="Illustration symbolizing question and answers"
+        />
+        <strong>Create live Q&amp;A rooms</strong>
+        <p>Ask a real-time audience questions</p>
+      </aside>
+      <main>
+        <div className="main-content">
+          <img src={logoImg} alt="Letmeask" />
+          <h2>Create a new room</h2>
+          <form>
+            <input type="text" placeholder="Room's name" />
+            <Button type="submit">Create room</Button>
+          </form>
+          <p>
+            Want to join an existing room? <a href="./">click here</a>
+          </p>
+        </div>
+      </main>
+    </div>
+  );
+}
