@@ -14,11 +14,11 @@
     padding: 120px 80px;
 
     img {
-      max-width: 320px
+      max-width: 320px;
     }
 
     strong {
-      font: 700 36px ' Poppins', sans-serif;
+      font: 700 36px "Poppins", sans-serif;
       line-height: 42px;
       margin-top: 16px;
     }
@@ -47,14 +47,14 @@
     align-items: stretch;
     text-align: center;
 
-    >img {
+    > img {
       align-self: center;
     }
 
     h2 {
       font-size: 24px;
       margin: 64px 0 24px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     form {
@@ -82,7 +82,7 @@
       margin-top: 16px;
 
       a {
-        color: #e559f9
+        color: #e559f9;
       }
     }
   }
