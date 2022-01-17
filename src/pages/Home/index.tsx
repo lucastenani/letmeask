@@ -1,15 +1,14 @@
-import { useContext } from "react";
-import { AuthContext } from "../../App";
 import { useNavigate } from "react-router-dom";
 import illustrationImg from "../../assets/images/illustration.svg";
 import logoImg from "../../assets/images/logo.svg";
 import googleIconImg from "../../assets/images/google-icon.svg";
 import "../../styles/auth.scss";
 import { Button } from "../../components/Button";
+import { useAuth } from "../../hooks/useAuth";
 
 export function Home() {
   const navigate = useNavigate();
-  const { user, sigInWithGoogle } = useContext(AuthContext);
+  const { user, sigInWithGoogle } = useAuth();
 
   async function navigateToNewRoom() {
     if (!user) {
