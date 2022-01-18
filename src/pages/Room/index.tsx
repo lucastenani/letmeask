@@ -1,5 +1,6 @@
 import logoImg from "../../assets/images/logo.svg";
 import { Button } from "../../components/Button";
+import "./style.scss";
 
 export function Room() {
   return (
