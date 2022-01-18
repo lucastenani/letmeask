@@ -22,17 +22,17 @@ export function Room() {
 
       <main>
         <div className="room-title">
-          <h1>Sala React</h1>
-          <span>4 perguntas</span>
+          <h1>Room React</h1>
+          <span>4 questions</span>
         </div>
 
         <form>
-          <textarea placeholder="O que voce quer perguntar?" />
+          <textarea placeholder="What do you want to ask?" />
           <div className="form-footer">
             <span>
-              Para enviar uma pergunta <button>faça seu login</button>
+              <button>Login</button> to submit a question
             </span>
-            <Button type="submit">Enviar pergunta</Button>
+            <Button type="submit">Send question</Button>
           </div>
         </form>
       </main>
