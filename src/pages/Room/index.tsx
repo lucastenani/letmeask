@@ -105,7 +105,13 @@ export function Room() {
       <main>
         <div className="room-title">
           <h1>{title} Room</h1>
-          <span>4 questions</span>
+          {(() => {
+            if (questions.length === 1) {
+              return <span>{questions.length} question</span>;
+            } else if (questions.length > 1) {
+              return <span>{questions.length} questions</span>;
+            }
+          })()}
         </div>
 
         <form onSubmit={handleSendQuestion}>
