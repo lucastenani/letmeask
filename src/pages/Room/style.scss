@@ -75,6 +75,8 @@
           span {
             margin-left: 8px;
             color: #29292e;
+            font-size: 14px;
+            font-weight: 500;
           }
         }
 
@@ -94,6 +96,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
