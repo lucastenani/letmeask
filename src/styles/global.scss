@@ -1,3 +1,13 @@
+:root {
+  --main-bg-color: pink;
+  --white: #ffffff;
+  --text-color: #29292e;
+  --text-color-2: #737380;
+  --bg-color: #f8f8f8;
+  --primary-color: #835afd;
+  --secundary-color: var(--secundary-color);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +15,8 @@
 }
 
 body {
-  background: #f8f8f8;
-  color: #29292e;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 body,
