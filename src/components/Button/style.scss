@@ -20,4 +20,10 @@
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+  &.outlined {
+    background: var(--white);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
 }
