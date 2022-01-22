@@ -4,7 +4,7 @@ import { useAuth } from "../../hooks/useAuth";
 import logoImg from "../../assets/images/logo.svg";
 import { Button } from "../../components/Button";
 import { RoomCode } from "../../components/RoomCode";
-import "./style.scss";
+import "../../styles/room.scss";
 import { database } from "../../services/firebase";
 import { Link } from "react-router-dom";
 import { Question } from "../../components/Question";
