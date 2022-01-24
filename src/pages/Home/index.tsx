@@ -25,6 +25,7 @@ export function Home() {
     event?.preventDefault();
 
     if (roomCode.trim() === "") {
+      alert("To enter a room you need to enter the code.");
       return;
     }
 
@@ -32,6 +33,11 @@ export function Home() {
 
     if (!roomRef.exists()) {
       alert("This room does not exist.");
+      return;
+    }
+
+    if (roomRef.val().endedAt) {
+      alert("Room already closed.");
       return;
     }
 
