@@ -65,6 +65,9 @@ export function AdminRoom() {
             <Button isOutlined onClick={handleEndRoom}>
               Close room
             </Button>
+            <Link to={`/rooms/${roomId}`}>
+              <Button>Access as a user</Button>
+            </Link>
           </div>
         </div>
       </header>

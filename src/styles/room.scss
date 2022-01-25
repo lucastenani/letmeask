@@ -18,6 +18,10 @@
         display: flex;
         gap: 16px;
 
+        a {
+          text-decoration: none;
+        }
+
         button {
           height: 40px;
         }
