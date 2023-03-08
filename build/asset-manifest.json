@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/letmeask/static/css/main.e706b74b.css",
-    "main.js": "/letmeask/static/js/main.39394ae9.js",
+    "main.js": "/letmeask/static/js/main.a75bfca7.js",
     "static/media/illustration.svg": "/letmeask/static/media/illustration.ae7276f02d68828a7fd05900182dccd4.svg",
     "static/media/logo.svg": "/letmeask/static/media/logo.a88331cb56de8218e26a25fd0e49f1ac.svg",
     "static/media/google-icon.svg": "/letmeask/static/media/google-icon.df15d8e5458213ab411f1d2e97ab8c67.svg",
@@ -11,10 +11,10 @@
     "static/media/answer.svg": "/letmeask/static/media/answer.4502a8d5a18c09b88dbbc129df3c97a6.svg",
     "static/media/check.svg": "/letmeask/static/media/check.5dfa6ed6686122c45d79fefd527e506f.svg",
     "main.e706b74b.css.map": "/letmeask/static/css/main.e706b74b.css.map",
-    "main.39394ae9.js.map": "/letmeask/static/js/main.39394ae9.js.map"
+    "main.a75bfca7.js.map": "/letmeask/static/js/main.a75bfca7.js.map"
   },
   "entrypoints": [
     "static/css/main.e706b74b.css",
-    "static/js/main.39394ae9.js"
+    "static/js/main.a75bfca7.js"
   ]
 }
